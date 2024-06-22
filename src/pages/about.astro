@@ -20,16 +20,14 @@ const fontWeight = "bold";
 const textCase = "capitalize";
 ---
 
-<html lang="en">
-    <head>
-      <style define:vars={{skillColor, fontWeight, textCase}}>
-        .skill {
-          color: var(--skillColor);
-          font-weight: var(--fontWeight);
-          text-transform: var(--textCase);
-        }
-      </style>  
-    </head>
+    <style define:vars={{skillColor, fontWeight, textCase}}>
+      .skill {
+        color: var(--skillColor);
+        font-weight: var(--fontWeight);
+        text-transform: var(--textCase);
+      }
+    </style>
+      
     <BaseLayout pageTitle={pageTitle}>
       <h2>... and my new Astro site!</h2>
 

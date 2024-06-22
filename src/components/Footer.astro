@@ -1,18 +1,25 @@
 ---
 import Social from './Social.astro';
 ---
-<p>Pockito made
-PS : Azzouz is the best</p>
 <footer>
   <Social platform="twitter" username="astrodotbuild" />
   <Social platform="github" username="withastro" />
   <Social platform="youtube" username="astrodotbuild" />
 </footer>
 
+<div style="display: flex; justify-content: space-between;">
+  <p style="margin: 0;">Pockito made</p>
+  <p style="margin: 0;">PS : Azzouz is the best ❤️</p>
+</div>
+
 <style>
   footer {
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
+  }
+
+  p {
+    color: rgb(255, 166, 181);
   }
 </style>
